@@ -18,21 +18,22 @@ h1 {
 position: center;
 }
 
+/* Gives images a border and an outline */
 #image1, #image2 {
     border: 3px solid #555;
-
     outline: 5px solid #dbc70bbb;
 
 }
 
 
-
-.imgtxt {
+/**The text at the bottom of each image*/
+figcaption {
 
     font-size: 11px;
     border: none;
 }
 
+/*Selects p elements inside div */
 div p {
     width: 75%;
     float: left;
@@ -43,8 +44,8 @@ div p {
 
   }
 
-
-.moreText {
+/* Text in the second paragraph */
+.beginningsText {
     display: block;
     margin-left: auto;
     margin-right: auto;
