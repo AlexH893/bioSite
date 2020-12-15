@@ -25,12 +25,13 @@ position: center;
 
 }
 
-
 /**The text at the bottom of each image*/
 figcaption {
 
+    padding-top: 4px;
     font-size: 11px;
     border: none;
+
 }
 
 /*Selects p elements inside div */
@@ -53,11 +54,19 @@ div p {
 }
 
 .footer{
-    padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     text-align: center;
-
 }
 /* text in footer */
 .footer p {
     line-height: 1px;
 }
+
+/* Zooms in on image when user hovers mouse over */
+#image1:hover {
+    transition: transform .2s; /* Animation */
+    transform: scale(1.1); /* (110% zoom */
+    margin: 0 auto;
+  }
